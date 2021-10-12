@@ -14,17 +14,32 @@ body{
     font-weight: bolder;
 }
 
-main{ 
+.buttons-container{ 
     background-color: rgba(255, 255, 255, 1);
     width: 50%;
-    margin: 20px auto 40px;
+    margin: 20px auto 0px;
     padding: 20px;
     border-radius: 5px;
 }
 
-.main-header{
-    border-bottom: 1px solid grey;
+main{ 
+    background-color: rgba(255, 255, 255, 1);
+    width: 50%;
+    margin: 3px auto 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.buttons-positioning{
     padding-bottom: 10px;
+}
+
+.list-title{
+    margin-bottom: 0px;
+}
+
+.list-element-position{
+    margin-top: 0px;
 }
 
 .container{
